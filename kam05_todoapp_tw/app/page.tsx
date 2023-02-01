@@ -10,6 +10,7 @@ export default function Home() {
         </section>
 
         <section className=" pt-1 p-3 ">
+          {/* @ts-expect-error Server Component */}
           <ToDoList />        
         </section>
       </>

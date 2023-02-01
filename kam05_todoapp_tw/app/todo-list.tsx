@@ -5,7 +5,7 @@ const getToDos = async () => {
     return todos.json();
 }
 
-export default async function ToDoList() {
+export default async function getStaticProps() {
     const {todos} = await getToDos();
     //console.log({todos});
     return (
